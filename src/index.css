@@ -1,0 +1,107 @@
+body {
+  background: linear-gradient(90deg, #e46515,  rgb(246, 158, 22));
+}
+.Header {
+  user-select: none;
+  background:linear-gradient(to right, rgb(192, 68, 19), rgb(233, 103, 103));
+  /*border: 1px solid rgb(105, 101, 101);*/
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(97, 93, 93, 0.336);
+  padding: 20px;
+  margin: 0px;
+  padding-right: 0;
+  width: 97%;
+  height: auto;
+  display:inline-block;
+}
+.Titulo{
+  display: inline; 
+  width: 50%;
+  font-family: cursive;
+  font-size: 5em;
+  padding: 0.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  color:rgb(246, 158, 22);
+}
+.barraNav{
+  display: block;
+  float: right;              
+  font-size: 2em;
+
+  margin: 0;
+  margin-top: 30px;
+  margin-right: 0px;
+  width: fit-content; 
+  border: 0;
+  padding-right: 0;
+}
+.barraNav button {
+  font-size: 1.5rem;
+  color: goldenrod;
+  background: none;
+  border: 0;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  border-radius: 45px;
+  padding: 10px;
+  padding-right: 10px;
+  margin: 5px;
+  display: inline-block;
+      
+}
+button:hover{
+  color:aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*                                      //Tal vez lo use luego por ahora no es relevante <Jeffry Guerrero>
+.card{
+  border: 1px solid rgb(105, 101, 101);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(97, 93, 93, 0.336);
+  padding: 20px;
+  margin: 1px;
+  text-align: center;
+  width: 150px;
+  display: inline-block;
+}
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 12%;
+  margin-bottom: 10px;
+}
+.card .card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: rgb(70, 25, 25);
+}
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;  
+}
+.clock-container{
+  backdrop-filter: blur(7px);
+  width: 100vw;
+  padding: 10px 0;
+  user-select: none;
+}
+.clock{
+  color: white;
+  font-size: 7rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.5);
+}*/
+

@@ -1,0 +1,39 @@
+.content4{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.formContainer{
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center; 
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lavel {
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"],input[type = "email"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
