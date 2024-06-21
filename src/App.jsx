@@ -45,7 +45,7 @@ function App() {
   return (
     <>
       <header className="Header">
-        <h1 className="Titulo">date gusto jejej poderoso </h1>
+        <h1 className="Titulo">date gusto</h1>
         <nav className="barraNav">
           <button onClick={()=> setActiveComponent ("home")}>Inicio</button>
           <button onClick={()=> setActiveComponent ("Menu")}>menu</button>
