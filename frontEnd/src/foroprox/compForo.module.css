@@ -1,0 +1,98 @@
+
+.tablaOpiniones {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: burlywood;
+    font-size: large;
+    font-family: Arial, sans-serif;
+  }
+.container{
+    width: 97%;
+    height: auto;
+}
+.tablaOpiniones th:nth-child(1), 
+.tablaOpiniones td:nth-child(1) {
+  width: 10ch; /* Aproximadamente 10 caracteres */
+  white-space: nowrap; /* Evita que el contenido se rompa en varias líneas */
+}
+
+.tablaOpiniones th:nth-child(2), 
+.tablaOpiniones td:nth-child(2) {
+  width: auto; /* La columna opinión ocupará el espacio restante */
+}
+
+.tablaOpiniones th:nth-child(3), 
+.tablaOpiniones td:nth-child(3) {
+  width: 1%; /* Suficiente para los botones con iconos */
+  white-space: nowrap; /* Evita que el contenido se rompa en varias líneas */
+}
+/* Estilos generales para las celdas de la tabla */
+.tablaOpiniones th,
+.tablaOpiniones td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Alinear el texto en el encabezado de las columnas */
+.tablaOpiniones th {
+  text-align: left;
+  background-color: rgb(231, 161, 104);
+  
+}
+.botonCrear{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 10px;
+  display: block;
+  background-color: dimgray;
+  color: wheat;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.titlePostear{
+  color: #571313;
+  font-size: 35px;
+  font-family: Arial, sans-serif;
+}
+label{
+  font-family:  Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: rgba(0, 0, 0, 0.781);
+}
+.boxNombre{
+  cursor: alias;
+  background-color: #deb88794;
+  font-family: Arial, sans-serif;
+  color: #4b2d41;
+  font-size: 20px;
+}
+
+.boxTexto{
+  cursor: alias;
+  background-color: #deb88794;
+  font-family: Arial, sans-serif;
+  color: #4b2d41;
+  font-size: 20px;
+  cursor: alias;
+  background-color: #deb88794;
+  font-family: Arial, sans-serif;
+  color: #4b2d41;
+  font-size: 20px;
+  width: 90%;
+  height: 140px;
+  field-sizing: content;
+}
+.botonSubir{
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: #ffff0059;
+  margin: 10px;
+  border: 0;
+  font-size: larger;
+}
